@@ -8,6 +8,7 @@ public class TomarBanho implements Estado {
         t.alterarHigiene(50);
         t.alterarEnergia(-10);
         t.envelhecer();
+        t.setDoente(false);
         EventoAleatorio.verificarEvento(t);
     }
 }

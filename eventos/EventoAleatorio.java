@@ -11,6 +11,7 @@ public class EventoAleatorio {
         if (chance < 10) {
             System.out.println("\n[Evento] O Tamagotchi ficou doente! Energia -20");
             t.alterarEnergia(-20);
+            t.setDoente(true);
         } else if (chance < 20) {
             System.out.println("\n[Evento] Está chovendo! Felicidade -10");
             t.alterarFelicidade(-10);
